@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/wogom-react/static/css/main.62d4d378.css",
+    "main.js": "/wogom-react/static/js/main.d2c1dd73.js",
+    "static/media/slider-2.jpg": "/wogom-react/static/media/slider-2.baae5f00b59e7895079b.jpg",
+    "static/media/slider-1.jpg": "/wogom-react/static/media/slider-1.0b923a16f76512048069.jpg",
+    "static/media/newWogom3.jpg": "/wogom-react/static/media/newWogom3.b78a08753775f8ee4e5c.jpg",
+    "static/media/realDeal8.jpg": "/wogom-react/static/media/realDeal8.73e4ee3643c3c464f310.jpg",
+    "static/media/realDeal2.jpg": "/wogom-react/static/media/realDeal2.bcd5f08dc6bdbc4b99cc.jpg",
+    "static/media/realDeal4.jpg": "/wogom-react/static/media/realDeal4.b7a6d47f5acda452777e.jpg",
+    "static/media/realDeal1.jpg": "/wogom-react/static/media/realDeal1.ee29e54de962fe3a28b8.jpg",
+    "static/media/realDeal7.jpg": "/wogom-react/static/media/realDeal7.1ed1bf62ee1a50496cda.jpg",
+    "static/media/realDeal3.jpg": "/wogom-react/static/media/realDeal3.b8355f55bab7ef56dbfa.jpg",
+    "static/media/newWogom2.jpg": "/wogom-react/static/media/newWogom2.85668806a4ee5f797798.jpg",
+    "static/media/personalCare1.jpg": "/wogom-react/static/media/personalCare1.7f5622b6ee137461bcaf.jpg",
+    "index.html": "/wogom-react/index.html",
+    "main.62d4d378.css.map": "/wogom-react/static/css/main.62d4d378.css.map",
+    "main.d2c1dd73.js.map": "/wogom-react/static/js/main.d2c1dd73.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.62d4d378.css",
+    "static/js/main.d2c1dd73.js"
+  ]
+}
