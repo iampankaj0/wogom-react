@@ -1,0 +1,63 @@
+.personal-care_component {
+    margin-top: 70px;
+}
+
+.personal-care_component .heading-main {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    color: var(--color-yellow);
+}
+
+.personal-care_component .heading-main>span {
+    color: var(--color-blue);
+}
+
+.personal-care_component .heading-main:after {
+    content: '';
+    display: block;
+    border-bottom: 2px dashed var(--color-yellow);
+    margin: 10px auto 0;
+    width: 240px;
+}
+
+
+.personal-care_component .all-prod-new {
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    margin-top: 40px;
+    flex-wrap: wrap
+}
+
+.personal-care_component .all-prod-new .card {
+    width: calc(100% / 4);
+    /* padding: 10px; */
+    cursor: pointer;
+}
+
+.personal-care_component .all-prod-new .card img {
+    width: 90%;
+    border-radius: 10px;
+    box-shadow: 0 1px 2px 1px #00000026;
+    margin: 10px;
+}
+
+
+@media screen and (max-width: 575px) {
+    .personal-care_component .all-prod-new .card {
+        width: calc(100% / 2);
+    }
+
+    .personal-care_component {
+        margin-top: 50px;
+    }
+
+    .personal-care_component .heading-main {
+        font-size: 22px;
+    }
+
+    .personal-care_component .all-prod-new {
+        margin-top: 20px;
+    }
+}

@@ -1,25 +1,28 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import CarouselSlider from './components/CarouselSlider';
+import FeaturesImg from './components/FeaturesImg';
+import Header from './components/Header';
+import NewWogom from './components/NewWogom';
+import PersonalCare from './components/PersonalCare';
+import RealDeal from './components/RealDeal';
+import SubHeader from './components/SubHeader';
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='main_app-component'>
+
+      <Header />
+      <SubHeader />
+      <CarouselSlider />
+      <FeaturesImg />
+      <NewWogom />
+      <RealDeal />
+      <PersonalCare />
+
+
     </div>
-  );
+  )
 }
 
-export default App;
+export default App

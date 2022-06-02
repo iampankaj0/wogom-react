@@ -11,3 +11,63 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+
+
+
+body {
+  overflow-x: hidden;
+}
+
+:root {
+  --color-blue: #106cb6;
+  --color-yellow: #fdc500;
+  --color-white: #fff;
+}
+
+
+
+@media screen and (min-width: 500px) {
+  .container {
+    margin: 0 30px;
+  }
+}
+
+@media screen and (min-width: 767px) {
+  .container {
+    margin: 0 50px;
+  }
+}
+
+@media screen and (min-width: 991px) {
+  .container {
+    margin: 0 70px;
+  }
+}
+
+
+@media screen and (min-width: 1199px) {
+  .container {
+    margin: 0 80px;
+  }
+}
+
+
+@media screen and (min-width: 1399px) {
+  .container {
+    margin: 0 100px;
+  }
+}
+
+@media screen and (min-width: 1500px) {
+  .container {
+    margin: 0 150px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .container {
+    margin: 0 15px;
+  }
+}

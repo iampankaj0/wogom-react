@@ -1,0 +1,203 @@
+.header-component {
+    background-color: var(--color-blue);
+    padding: 10px 0;
+}
+
+.header-component .logo-cat-brand .logo img {
+    max-width: 100px
+}
+
+.header-component .logo-cat-brand .logo,
+.header-component .logo-cat-brand .category {
+    margin-right: 15px;
+}
+
+.header-component .logo-cat-brand .brand,
+.header-component .logo-cat-brand .category {
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    transition: 0.4s;
+}
+
+.header-component .logo-cat-brand .brand:hover,
+.header-component .logo-cat-brand .category:hover {
+    background-color: #1b5d97;
+    border-radius: 50px;
+}
+
+.header-component .logo-cat-brand .brand:hover svg,
+.header-component .logo-cat-brand .category:hover svg {
+    transform: rotate(180deg);
+    transition: 0.4s;
+}
+
+
+.header-component .logo-cat-brand .brand img,
+.header-component .logo-cat-brand .category img {
+    margin-right: 10px;
+    width: 24px;
+}
+
+
+.header-component .logo-cat-brand .brand a,
+.header-component .logo-cat-brand .category a {
+    color: #fff;
+    font-weight: 500;
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.header-component .logo-cat-brand .brand a>span,
+.header-component .logo-cat-brand .category a>span {
+    margin-right: 5px;
+}
+
+.header-component .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-component .logo-cat-brand,
+.header-component .sell-buy {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-component .search-sec {
+    width: 33%;
+    position: relative;
+}
+
+.header-component .search-sec>input {
+    width: 100%;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+}
+
+.header-component .search-sec>input:focus {
+    border-width: 0px;
+    border: none;
+    outline: none;
+}
+
+.header-component .search-sec button {
+    position: absolute;
+    top: 6px;
+    right: 0;
+    background-color: var(--color-yellow);
+    color: var(--color-white);
+    padding: 5px 8px 3px;
+    border-radius: 5px;
+    border: none;
+    font-size: 17px;
+    transition: 0.4s
+}
+
+.header-component .search-sec button:hover {
+    background-color: #1b5d97;
+}
+
+.header-component .sell-buy {
+    color: var(--color-white);
+}
+
+.header-component .sell-buy .sell {
+    margin-right: 20px;
+}
+
+.header-component .sell-buy .sell,
+.header-component .sell-buy .buy {
+    display: flex;
+    align-items: center;
+    transition: 0.4s;
+    padding: 10px 20px;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.header-component .sell-buy .sell:hover,
+.header-component .sell-buy .buy:hover {
+    background-color: #1b5d97;
+}
+
+.header-component .sell-buy .sell svg,
+.header-component .sell-buy .buy svg {
+    margin-right: 10px;
+    font-size: 25px;
+}
+
+.header-component .sell-buy .sell strong,
+.header-component .sell-buy .buy strong {
+    line-height: 1;
+    font-size: 15px;
+}
+
+.header-component .sell-buy .sell strong span,
+.header-component .sell-buy .buy strong span {
+    display: block;
+    font-weight: lighter;
+    font-size: 13px;
+}
+
+.header-component .mobile-icon {
+    font-size: 30px;
+    color: var(--color-yellow)
+}
+
+
+/* SUBHEADER CSS START */
+.subheader_component {
+    background-color: var(--color-blue);
+    padding: 10px 0;
+    margin: 1px 0;
+}
+
+.subheader_component .download-app {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    margin: 0 20px 0 0;
+    color: var(--color-white);
+}
+
+.subheader_component .download-app .icon {
+    margin: 0 20px;
+}
+
+.subheader_component .download-app svg{
+    cursor: pointer;
+    font-size: 20px;
+}
+
+/* SUBHEADER CSS ENDS */
+
+
+
+
+@media screen and (max-width: 1199px) {
+    .header-component .search-sec {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 801px) {
+    .header-component .mobile-icon {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 800px) {
+
+    .header-component .sell-buy,
+    .header-component .category,
+    .header-component .brand {
+        display: none !important;
+    }
+}
