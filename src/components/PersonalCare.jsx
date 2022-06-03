@@ -1,6 +1,7 @@
 import React from 'react';
 import personalCareData from '../arrays/personalCareData';
 import '../assets/css/personalCare.css';
+import headfone from '../assets/images/headphoneBanner.jpg';
 
 const PersonalCare = () => {
     return (
@@ -19,6 +20,9 @@ const PersonalCare = () => {
                             )
                         })
                     }
+                </div>
+                <div className="headphone-section">
+                    <img src={headfone} alt={headfone} />
                 </div>
             </div>
         </div>
