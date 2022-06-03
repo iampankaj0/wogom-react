@@ -10,35 +10,43 @@ import featimg8 from '../assets/images/featimg8.png';
 const featImgData = [
     {
         id: 1,
-        imgSrc: featimg1
+        imgSrc: featimg1,
+        title: 'TV'
     },
     {
         id: 2,
-        imgSrc: featimg2
+        imgSrc: featimg2,
+        title: 'Mobile'
     },
     {
         id: 3,
-        imgSrc: featimg3
+        imgSrc: featimg3,
+        title: 'Home Appliances'
     },
     {
         id: 4,
-        imgSrc: featimg4
+        imgSrc: featimg4,
+        title: 'Kitchen Appliances'
     },
     {
         id: 5,
-        imgSrc: featimg5
+        imgSrc: featimg5,
+        title: 'Personal Grooming'
     },
     {
         id: 6,
-        imgSrc: featimg6
+        imgSrc: featimg6,
+        title: 'Camera'
     },
     {
         id: 7,
-        imgSrc: featimg7
+        imgSrc: featimg7,
+        title: 'Audio'
     },
     {
         id: 8,
-        imgSrc: featimg8
+        imgSrc: featimg8,
+        title: 'Cabel'
     },
 
 ];

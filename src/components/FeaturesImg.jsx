@@ -11,8 +11,11 @@ const FeaturesImg = () => {
                     {
                         featImgData.map((data, id) => {
                             return (
-                                <div className="img-box" key={id}>
-                                    <img src={data.imgSrc} alt={data.imgSrc} />
+                                <div>
+                                    <div className="img-box" key={id}>
+                                        <img src={data.imgSrc} alt={data.imgSrc} />
+                                    </div>
+                                    <p style={{textAlign: 'center', fontSize: '11px'}}> {data.title} </p>
                                 </div>
                             );
                         })
