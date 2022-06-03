@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/wogom-react/static/css/main.0eecd2b1.css",
-    "main.js": "/wogom-react/static/js/main.75bc910b.js",
+    "main.css": "/wogom-react/static/css/main.754bf0b6.css",
+    "main.js": "/wogom-react/static/js/main.e69f17f1.js",
     "static/media/slider-2.jpg": "/wogom-react/static/media/slider-2.baae5f00b59e7895079b.jpg",
     "static/media/slider-1.jpg": "/wogom-react/static/media/slider-1.0b923a16f76512048069.jpg",
     "static/media/bstElec2.jpg": "/wogom-react/static/media/bstElec2.1bab9bcb9477ae56da07.jpg",
@@ -19,11 +19,11 @@
     "static/media/newWogom2.jpg": "/wogom-react/static/media/newWogom2.85668806a4ee5f797798.jpg",
     "static/media/personalCare1.jpg": "/wogom-react/static/media/personalCare1.7f5622b6ee137461bcaf.jpg",
     "index.html": "/wogom-react/index.html",
-    "main.0eecd2b1.css.map": "/wogom-react/static/css/main.0eecd2b1.css.map",
-    "main.75bc910b.js.map": "/wogom-react/static/js/main.75bc910b.js.map"
+    "main.754bf0b6.css.map": "/wogom-react/static/css/main.754bf0b6.css.map",
+    "main.e69f17f1.js.map": "/wogom-react/static/js/main.e69f17f1.js.map"
   },
   "entrypoints": [
-    "static/css/main.0eecd2b1.css",
-    "static/js/main.75bc910b.js"
+    "static/css/main.754bf0b6.css",
+    "static/js/main.e69f17f1.js"
   ]
 }
