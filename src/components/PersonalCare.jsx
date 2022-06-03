@@ -29,4 +29,4 @@ const PersonalCare = () => {
     )
 }
 
-export default PersonalCare
+export default PersonalCare;

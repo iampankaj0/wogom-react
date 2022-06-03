@@ -1,0 +1,92 @@
+.bext-electronics_component {
+    margin-top: 60px;
+}
+
+.bext-electronics_component .heading-main {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    color: var(--color-yellow);
+}
+
+.bext-electronics_component .heading-main>span {
+    color: var(--color-blue);
+}
+
+.bext-electronics_component .heading-main:after {
+    content: '';
+    display: block;
+    border-bottom: 2px dashed var(--color-yellow);
+    margin: 10px auto 0;
+    width: 240px;
+}
+
+.bext-electronics_component .all-prods-bst {
+    margin-top: 40px;
+}
+
+.bext-electronics_component .all-prods-bst .two-prods {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.bext-electronics_component .all-prods-bst .two-prods .card {
+    width: calc(100% / 2);
+    padding: 10px;
+}
+
+.bext-electronics_component .all-prods-bst .two-prods .card img {
+    border-radius: 10px;
+    width: 100%;
+}
+
+.bext-electronics_component .all-prods-bst .four-prods {
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    /* margin-top: 40px; */
+    flex-wrap: wrap
+}
+
+.bext-electronics_component .all-prods-bst .four-prods .card {
+    width: calc(100% / 4);
+    /* padding: 10px; */
+    cursor: pointer;
+}
+
+.bext-electronics_component .all-prods-bst .four-prods .card img {
+    width: 90%;
+    border-radius: 10px;
+    box-shadow: 0 1px 2px 1px #00000026;
+    margin: 10px;
+}
+
+@media screen and (max-width: 575px) {
+    .bext-electronics_component .heading-main {
+        font-size: 22px;
+    }
+
+    .bext-electronics_component {
+        margin-top: 40px;
+    }
+
+    .bext-electronics_component .all-prods-bst .four-prods .card {
+        width: calc(100% / 2);
+    }
+}
+
+
+@media screen and (max-width: 450px) {
+    .bext-electronics_component .all-prods-bst .two-prods {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .bext-electronics_component .all-prods-bst .two-prods .card {
+        width: 100%;
+        padding: 10px;
+    }
+}

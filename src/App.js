@@ -1,7 +1,9 @@
 import React from 'react';
 import './App.css';
+import BestElectronics from './components/BestElectronics';
 import CarouselSlider from './components/CarouselSlider';
 import FeaturesImg from './components/FeaturesImg';
+import Footer from './components/Footer';
 import Header from './components/Header';
 import NewWogom from './components/NewWogom';
 import PersonalCare from './components/PersonalCare';
@@ -19,6 +21,8 @@ const App = () => {
       <NewWogom />
       <RealDeal />
       <PersonalCare />
+      <BestElectronics />
+      <Footer />
 
 
     </div>
