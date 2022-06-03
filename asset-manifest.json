@@ -1,9 +1,10 @@
 {
   "files": {
     "main.css": "/wogom-react/static/css/main.4e6f1309.css",
-    "main.js": "/wogom-react/static/js/main.6ded21e2.js",
+    "main.js": "/wogom-react/static/js/main.f8a3c57a.js",
     "static/media/slider-2.jpg": "/wogom-react/static/media/slider-2.baae5f00b59e7895079b.jpg",
     "static/media/slider-1.jpg": "/wogom-react/static/media/slider-1.0b923a16f76512048069.jpg",
+    "static/media/headphoneBanner.jpg": "/wogom-react/static/media/headphoneBanner.0ff94708150d94fbcd77.jpg",
     "static/media/newWogom3.jpg": "/wogom-react/static/media/newWogom3.b78a08753775f8ee4e5c.jpg",
     "static/media/realDeal8.jpg": "/wogom-react/static/media/realDeal8.73e4ee3643c3c464f310.jpg",
     "static/media/realDeal2.jpg": "/wogom-react/static/media/realDeal2.bcd5f08dc6bdbc4b99cc.jpg",
@@ -15,10 +16,10 @@
     "static/media/personalCare1.jpg": "/wogom-react/static/media/personalCare1.7f5622b6ee137461bcaf.jpg",
     "index.html": "/wogom-react/index.html",
     "main.4e6f1309.css.map": "/wogom-react/static/css/main.4e6f1309.css.map",
-    "main.6ded21e2.js.map": "/wogom-react/static/js/main.6ded21e2.js.map"
+    "main.f8a3c57a.js.map": "/wogom-react/static/js/main.f8a3c57a.js.map"
   },
   "entrypoints": [
     "static/css/main.4e6f1309.css",
-    "static/js/main.6ded21e2.js"
+    "static/js/main.f8a3c57a.js"
   ]
 }
